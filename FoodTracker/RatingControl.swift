@@ -50,7 +50,6 @@ import UIKit
     //MARK: Button Action
     
     @objc func ratingButtonTapped(button: UIButton) {
-        func ratingButtonTapped(button: UIButton) {
             guard let index = ratingButtons.index(of: button) else {
                 fatalError("The button, \(button), is not in the ratingButtons array: \(ratingButtons)")
             }
@@ -65,8 +64,6 @@ import UIKit
                 // Otherwise set the rating to the selected star
                 rating = selectedRating
             }
-        }
-        
     }
     
     //MARK: Private Methods
@@ -124,9 +121,5 @@ import UIKit
     }
     
 }
-
-
-
-
 
 
